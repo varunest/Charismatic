@@ -10,7 +10,7 @@ get_header(); ?>
 
 		<h2 class="top_heading">Search Results</h2>
 
-		<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
+		<?php get_template_part('inc/nav'); ?>
 
 		<?php while (have_posts()) : the_post(); ?>
 
@@ -18,7 +18,7 @@ get_header(); ?>
 
 				<h2 class="title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 
-				<div class="post_info"><?php include (TEMPLATEPATH . '/inc/meta.php' ); ?></div>
+				<div class="post_info"><?php get_template_part('inc/meta'); ?></div>
 
 				<div class="entry excerpt">
 					<?php the_excerpt(); ?>
@@ -28,7 +28,7 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 
-		<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
+		<?php get_template_part('inc/nav'); ?>
 
 	<?php else : ?>
 
