@@ -19,7 +19,7 @@ get_header(); ?>
 
 			<div class="title"><h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2></div>
 
-			<div class="post_info"><?php get_template_part('inc/meta'); ?></div>
+			<div class="post_info"><?php include (TEMPLATEPATH . '/inc/meta.php' ); ?></div>
 
 			<div class="excerpt">
 			
@@ -34,7 +34,7 @@ get_header(); ?>
 
 	<?php endwhile; ?>
 
-	<?php get_template_part('inc/nav'); ?>
+	<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
 
 	<?php else : ?>
 

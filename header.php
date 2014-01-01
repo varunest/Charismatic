@@ -10,7 +10,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-	<meta charset="<?php get_template_directory_uri('charset'); ?>" />
+	<meta charset="<?php bloginfo('charset'); ?>" />
 	
 	<?php if (is_search()) { ?>
 	   <meta name="robots" content="noindex, nofollow" /> 
@@ -29,9 +29,9 @@
 		      elseif (is_404()) {
 		         echo 'Not Found - '; }
 		      if (is_home()) {
-		         get_template_directory_uri('name'); echo ' - '; get_template_directory_uri('description'); }
+		         bloginfo('name'); echo ' - '; bloginfo('description'); }
 		      else {
-		          get_template_directory_uri('name'); }
+		          bloginfo('name'); }
 		      if ($paged>1) {
 		         echo ' - page '. $paged; }
 		   ?>
@@ -39,21 +39,21 @@
 	
 	<link rel="shortcut icon" href="/favicon.ico">
 	
-	<link rel="stylesheet" href="<?php get_template_directory_uri('stylesheet_url'); ?>">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
-	<script type="text/javascript" src="<?php get_template_directory_uri("template_url"); ?>/js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/js/masonry.pkgd.min.js"></script>
 	
 	 <script type="text/javascript"
-          src="<?php get_template_directory_uri("template_url"); ?>/js/masonry.js">
+          src="<?php bloginfo("template_url"); ?>/js/masonry.js">
       </script>
 
 
       
 
 
-	<link rel="pingback" href="<?php get_template_directory_uri('pingback_url'); ?>">
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 	<?php if ( is_singular() ) wp_enqueue_script('comment-reply'); ?>
 
@@ -65,8 +65,8 @@
 	
 
 		<div id="header">
-			<h1><a href="<?php echo home_url(); ?>/"><?php get_template_directory_uri('name'); ?></a></h1>
-			<div id="sub-title"><?php get_template_directory_uri('description'); ?></div>
+			<h1><a href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a></h1>
+			<div id="sub-title"><?php bloginfo('description'); ?></div>
 	
 		</div>
 		
