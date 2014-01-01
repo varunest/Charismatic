@@ -1,4 +1,7 @@
 Version 1.0
 
 	i) Initial Release
-	ii) Few necessary changes added
+
+Version 1.0.1
+
+	i) Few necessary changes added
