@@ -2,7 +2,7 @@
 /**
  * The template for displaying Search Results pages.
  *
- * @package Coller
+ * @package Charismatic
  */
 get_header(); ?>
 

@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package Coller
+ * @package Charismatic
  */
 get_header(); ?>
 

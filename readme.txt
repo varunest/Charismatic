@@ -1,7 +1,7 @@
 Thank you for Using Charismatic Wordpress Theme.
 
-	i) Coller Wordpress Theme is Based on the Blanktheme
-	ii) Coller has been created Varun Verma. You can Follow me on http://github.com/varunest.
+	i) Charismatic Wordpress Theme is Based on the Blanktheme
+	ii) Charismatic has been created Varun Verma. You can Follow me on http://github.com/varunest.
 	iv) It comes GNU General Public License v3. More Details about the License can be found in the license.txt file included in the theme.
 	
 ## Copyrights for Resources used in this theme.
