@@ -1,7 +1,11 @@
 Version 1.0
 
-	i) Initial Release
+	i) Initial Release.
 
 Version 1.0.1
 
-	i) Few necessary changes added
+	i) Few necessary changes added.
+
+Version 1.0.2
+
+	i) Package names in theme files corrected.
