@@ -9,3 +9,7 @@ Version 1.0.1
 Version 1.0.2
 
 	i) Package names in theme files corrected.
+
+Version 1.0.3
+	
+	i) Minor Changes introduced
